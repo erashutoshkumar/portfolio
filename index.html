@@ -6,21 +6,22 @@
     <title>Personal Portfolio Ashutosh </title>
     <link rel ="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/096c1b2c97.js" crossorigin="anonymous"></script>
+
 </head>
 <body>
     <div id="header">
         <div class="container">
             <nav>
                 <img src="Ashutosh.png" class="logo">
-                <ul>
+                <ul id="sidemenu">
                     <li><a href="#header">Home</a></li>
                     <li><a href="#about">About</a></li>
                     <li><a href="#services">Services</a></li>
                     <li><a href="#portfolio">Portfolio</a></li>
                     <li><a href="#contact">Contact</a></li>
-                    <i class="fa-solid fa-xmark"></i>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
                 </ul>
-                <i class="fa-solid fa-bars"></i>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
             </nav>
             <div class="header-text">
                 <p>Web Designer</p>
@@ -214,6 +215,16 @@
                 var tabname = this.getAttribute("onclick").match(/'([^']+)'/)[1];
                 opentab(tabname);
             });
+        }
+    </script>
+
+    <script>
+        var sidemeu = document.getElementById("sidemenu");
+        function openmenu(){
+            sidemeu.style.right="0";
+        }
+        function closemenu(){
+            sidemeu.style.right="-200px";
         }
     </script>
 </body>
