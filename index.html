@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Ashutosh </title>
+    <link rel ="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/096c1b2c97.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="Ashutosh.png" class="logo">
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>Web Designer</p>
+                <h1>Hi, I'm <span>Ashutosh <br>kumar </span> from Bihar</h1>
+            </div>
+        </div>
+    </div>
+
+    <!---------about-------->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="photo.jpg" width="300px" , height="400px">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I am a web developer with a passion 
+                        for making hardware projects. In my free time, 
+                        I enjoy playing cricket and have a knack for assembling CPUs. 
+                        Combining my technical skills and love for hands-on projects, 
+                        I constantly seek new challenges and opportunities to innovate.
+                    </p>
+
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+                            <div class="tab-contents active-tab" id="skills">
+                                <ul>
+                                    <li><span>UI/UX</span><BR>Designing Web interface</li><br>
+                                    <li><span>CPU ASSEMBLING</span><BR>Fitted Internal components of computer system</li><br>
+                                    <li><span>TALLY ERP9 </span><BR>Calculate monetary quantities, accountancy , Tax and GST.</li>
+                                </ul>
+                            </div>
+            
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>2020-21</span><BR>Data operator at tibbi collage and Hospital patna </li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>2021-2025</span><BR>B.TECH in Electronics and Computer Engineering from punjabi university , Patiala</li>
+                                <li><span>2018-2020</span><BR>Higher Secondary (BSEB PATNA)</li>
+                                <li><span>2018 </span><BR>Matriculation (BSEB PATNA)</li>
+                                <li><span>2020-2021</span><BR>Advanced Diploma in computer Application</li>
+                                <li><span>2020-2021</span><BR>Diploma in computer Hardware Administrator</li>
+
+                            </ul>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!----------------services---------->
+
+    <div id="services">
+        <div class= "container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Web design involves creating the visual look,
+                         layout, and functionality of a website. 
+                         It combines various skills and disciplines</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>UI design is concerned with<br>
+                         the look and feel of a website or application.
+                         It involves creating the visual elements that users interact,
+                         UX design focuses on the overall experience a user
+                        has while interacting with a website or application. </p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-desktop"></i>
+                    <h2>CPU assembling</h2>
+                    <p>CPU assembling, often referred to as PC building,
+                         involves putting together various
+                        hardware components to create a fully functional computer.</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-----------------------portfolio------------------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1> 
+        <div class="work-list">
+            <div class="work">
+                 <img src="car.jpg" width="300px", height="400px">
+                 <div class="layer">
+                    <h3>Robotic Car</h3>
+                    <p>Designed and implemented by Arduino programming . 
+                        This is controlled through mobile Application (ESP8266) , where can easily controlled.
+                         It was made using Arduino  , Gear motors, Battery , lights and other various tools.</p>
+                         <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                 </div>
+            </div>
+            <div class="work">
+                <img src="cake.jpg"width="300px", height="400px">
+                <div class="layer">
+                    <h3>Online Bakery Shop</h3>
+                    <p>It helps user to order cake & cold drinks online with interactive User experience. 
+                        It was made using HTML , CSS , JAVASCRIPT , PHP and other various tools.
+                    </p>
+                         <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                 </div>
+           </div>
+           <div class="work">
+            <img src="mobile.jpg"width="300px", height="400px">
+            <div class="layer">
+                <h3>Online Mobile Store </h3>
+                <p>It helps user to order Mobile , laptop & other Assessories with interactive User experience.
+                     It was made using HTML , CSS , JAVASCRIPT , PHP and other various tools.
+                </p>
+                     <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+             </div>
+       </div>
+        </div> 
+        <a href="#" class="btn">See More</a>
+    </div>
+</div>
+
+<!----------------------------------contact------------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-envelope"></i>ashutoshkushwaha319@gmail.com</p>
+                <p><i class="fa-sharp fa-solid fa-square-phone"></i>9798730279</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/profile.php?id=100093559676569&mibextid=ZbWKwL"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://instagram.com/singh_ashu_tosh"><i class="fa-brands fa-square-instagram"></i></a>
+                    <a href="https://twitter.com/Singh_ashu_tosh?=llgS9uftR7GmBHUWr3UsJg&s=09"><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href="https://www.linkedin.com/in/ashutosh-kumar-752a50266?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/Ashutosh5063"><i class="fa-brands fa-github"></i></a>
+                </div>
+                <a href="Ashutosh Resume.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Massage" rows="6" placeholder="Your Message"></textarea>
+                    <button type = "submit" class="btn btn2">Submit</button>
+
+                </form>
+            </div>
+            
+        </div>
+    </div>
+    <div class="copyright">
+        <p>copyright <i class="fa-regular fa-copyright"></i> Ashutosh kumar</p>
+    </div>
+</div>
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+    
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+    
+            // Add 'active-link' to the clicked tab link
+            event.currentTarget.classList.add("active-link");
+    
+            // Show the corresponding tab content
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    
+        // Add click event listeners to tab links
+        for (tablink of tablinks) {
+            tablink.addEventListener("click", function() {
+                var tabname = this.getAttribute("onclick").match(/'([^']+)'/)[1];
+                opentab(tabname);
+            });
+        }
+    </script>
+</body>
+</html>
+
+
