@@ -49,7 +49,8 @@ function preview(element){
     shadow.classList.remove("show"); //hide the light grey background
     document.querySelector("body").style.overflow = "auto"; //show the scroll bar on body
   }
-  // Selecting the close button inside the preview box
+
+// Selecting the close button inside the preview box
 const closeBtn = document.querySelector(".preview-box .close-btn");
 
 closeBtn.onclick = () => {
@@ -58,4 +59,5 @@ closeBtn.onclick = () => {
     shadow.classList.remove("show");
     document.querySelector("body").style.overflow = "auto"; // Restore scroll functionality
 };
+
 }
