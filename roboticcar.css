@@ -1,0 +1,49 @@
+body {
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.video-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+video {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+
+.video-details {
+    text-align: center;
+}
+
+.video-details h2 {
+    margin: 10px 0;
+}
+
+.about-section {
+    margin-top: 20px;
+}
+
+.about-section h3 {
+    margin-bottom: 10px;
+}
+
+.about-section p {
+    line-height: 1.6;
+}
